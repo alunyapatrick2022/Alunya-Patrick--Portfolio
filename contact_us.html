@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Patrick-Alunya One Pager Portfolio Website UI/UX Design</title>
+     <meta name="description" content="A brief description of your page content.">
+     <meta name="keywords" content="keyword1, keyword2, keyword3">
+     <meta name="author" content="Your Name">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Tags -->
+     <meta property="og:title" content="Your Page Title">
+     <meta property="og:description" content="A brief description of your page content.">
+     <meta property="og:image" content="URL_to_image">
+     <meta property="og:url" content="URL_of_your_page">
+     <meta property="og:type" content="website">
+     
+     <!-- Twitter Card Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Your Page Title">
+     <meta name="twitter:description" content="A brief description of your page content.">
+     <meta name="twitter:image" content="URL_to_image">
+     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/4d1e4c5b32.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" type="text/css" href="./header.css" />
+     <link rel="stylesheet" type="text/css" href="./contact-us.css" />
+     <link rel="stylesheet" type="text/css" href="./contact-form.css" />
+     <link rel="stylesheet" type="text/css" href="./contact-social-handles.css" />
+     <link rel="stylesheet" type="text/css" href="./footer.css" />
+     <link rel="stylesheet" type="text/css" href="./globals.css" />
+     <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+<body>
+     <header>
+          <div class="brand-name">
+               <a href="./index.html">Patrick <span>Alunya</span></a>
+          </div>
+          <div class="nav-links">
+               <a href="#home">Home</a>
+               <a href="#projects">Projects</a>
+               <a href="#about">About</a>
+               <a href="./contact_us.html">Contact Us</a>
+          </div>
+     </header>
+     <hero class="contact-us-content">
+               <div class="image-container">
+                    <img src="./contact-us-hero-banner_1.png" />
+               </div>
+              <div class="contact-form">
+               <form   id="contact-us" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
+                    <input type="hidden" name="access_key" value="e5ae7620-94ff-4c5e-8da9-8fac9b2f1e11">
+                    <input type="hidden" name="subject" value="New Customer Message">
+                    <legend>Contact Form</legend><br />
+                    <p>Required fields are marked by<span style="color:red"> *</p>
+                    <label for="fname">First name<span style="color:red"> *</span></label>
+                    <input type="text" name="fname" id="fname" size=18 maxlength=50 required value="" placeholder="John Doe" />
+                    <label for="email">Email address<span style="color:red"> *</span></label>
+                    <input type="email" name="email" id="email" size=18 maxlength=50 placeholder="johndoe@example.com" required value="" />
+                    <label for="phone">Phone<span style="color:red"> *</span></label>
+                    <input type="phone"  name="phone" id="phone" size=18 maxlength=50  placeholder="Enter phone number..." required value="" />
+                    <label for="message">Message<span style="color:red"> *</span></label>
+                    <textarea type="text" name="message" id="message" size=20 maxlength=200 placeholder="Enter your message here..." required value=""></textarea><br />
+                    <div class="h-captcha" id="hBtn" data-captcha="true"></div>
+                    <input class="submit" type="submit" value="Send Message" />
+               </form>
+              </div>
+          </hero>
+          <section class="contact-channel">
+               <div class="contact-channel-title">
+                    <h2>Official Contact Channels</h2>
+               </div>
+               <div class="contact-channel-content">
+                    <p>Ready to transform your digital presence and drive business growth?<br />
+                       Contact Alunya Techiez today and let us start building something amazing together!
+                    </p>
+                    <div class="contact-details">
+                         <a href="tel: +254115348341">
+                              <img src="./contact-us-phone-icon.png" />
+                              <span>+254115348341</span>
+                         </a>
+                         <a href="https://web.whatsapp.com/send?text=your_message&phone=254115348341" class="whatsapp" target="_blank">
+                              <img src="./contact-channel-whatsapp-icon.png" />
+                              <span>+254115348341</span>
+                         </a>
+                         <a href="mailto: patrickalunya106@gmail.com">
+                              <img src="./gmail-icon_1.png" />
+                              <span>patrickalunya106@gmail.com</span>
+                         </a>
+                    </div>
+               </div>
+          </section><br /><br />
+          <section class="contact-social-handles">
+               <div></div>
+               <div class="contact-social-handles-content">
+                    <div class="social-handle-links">
+                         <a href="#"><img src="./fb-icon_1.png" /></a>
+                         <a href="https://www.instagram.com/alunya.techiez/"><img src="./instagram-link.png" /></a>
+                         <a href="#"><img src="./youtube-link.png" /></a>
+                         <a href="#"><img src="./twitter-link.png" /></a>
+                         <a href="#"><img src="./linkedin-link.png" /></a>
+                    </div>
+               </div>
+               <div></div>
+          </section>
+          <section class="footer">
+               <div class="brand-name">
+                    <a href="#">Alunya-Techiez</a>
+               </div>
+               <div class="copyright-info">
+                    <p>Copyright &copy; <span id="currentYear"></span>
+                         <span>Alunya-Techiez, Ltd.</span>
+                    </p>
+               </div>
+               <div class="legals-terms-of-service">
+                    <a href="./content/pages/legal_stuff.html">Legal Stuff |</a>
+                    <a href="./content/pages/legal_stuff.html">Terms Of Service |</a>
+                    <a href="./content/pages/legal_stuff.html">Company Policy</a>
+               </div>
+               <a class="whatsapp-button" id="whatsapp-button" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+               </a>
+               <!-- href="https://wa.me/send?phone=254115348341" -->
+          </section>
+          <script language="JavaScript" type="text/javascript" src="./script/current-year.js"></script>
+          <script language="JavaScript" type="text/javascript" src="./script/whatsapp-button.js"></script>
+          <script language="JavaScript" type="text/javascript" src="https://web3forms.com/client/script.js" async defer></script>
+          <script language="JavaScript" type="text/javascript" src="../../script/h-capture.js"></script>
+</body>
+</html>

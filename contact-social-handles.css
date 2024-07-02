@@ -1,0 +1,29 @@
+.contact-social-handles {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: center;
+     align-items: center;
+     column-gap: 2rem;
+}
+
+.social-handle-links img {
+     width: 30px;
+     height: auto;
+}
+.contact-social-handles >div:nth-of-type(1) {
+     background-color: grey;
+     width: 300px;
+     height: 5px;
+}
+
+.contact-social-handles>div:nth-of-type(3){
+     background-color: grey;
+          width: 300px;
+          height: 5px;
+}
+.social-handle-links {
+     display: grid;
+     grid-template-columns: auto auto auto auto auto;
+     justify-content: space-between;
+     column-gap: 1rem;
+}

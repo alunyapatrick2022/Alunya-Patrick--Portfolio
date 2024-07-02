@@ -1,0 +1,56 @@
+.contact-us-content {
+     display: grid;
+     display: -ms-grid;
+     display: -moz-grid;
+     grid-template-columns: auto auto;
+     margin-top: 7.5em;
+}
+
+.contact-channel>div {
+     display: grid;
+     display: -ms-grid;
+     display: -moz-grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto auto;
+     justify-content: space-around;
+}
+
+.contact-channel-title h2 {
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}
+
+.contact-details a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: all 0.3s ease-in-out;
+}
+
+.contact-details a:hover {
+     transform: scale(1.1);
+}
+
+.whatsapp:hover {
+     cursor: pointer;
+}
+.contact-details {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: space-between;
+     padding: 1rem;
+     margin: 1rem;
+     transition: all 0.3s ease-in-out;
+}
+
+.contact-details a {
+     display: grid;
+     grid-template-rows: auto auto;
+     row-gap: 0.5em;
+     align-content: center;
+     transition: all 0.3s ease-in-out;
+}
+.contact-channel-content img {
+     width: 30px;
+     height: auto;
+}
