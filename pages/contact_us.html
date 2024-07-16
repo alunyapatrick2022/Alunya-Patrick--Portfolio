@@ -21,31 +21,36 @@
      <meta name="twitter:title" content="Your Page Title">
      <meta name="twitter:description" content="A brief description of your page content.">
      <meta name="twitter:image" content="URL_to_image">
-     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
      <script src="https://kit.fontawesome.com/4d1e4c5b32.js" crossorigin="anonymous"></script>
-     <link rel="stylesheet" type="text/css" href="./header.css" />
-     <link rel="stylesheet" type="text/css" href="./contact-us.css" />
-     <link rel="stylesheet" type="text/css" href="./contact-form.css" />
-     <link rel="stylesheet" type="text/css" href="./contact-social-handles.css" />
-     <link rel="stylesheet" type="text/css" href="./footer.css" />
-     <link rel="stylesheet" type="text/css" href="./globals.css" />
-     <link rel="stylesheet" type="text/css" href="./styles.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="../style/header.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-social-handles.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-form.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-us.css" />
+     <link rel="stylesheet" type="text/css" href="../style/footer.css" />
+     <link rel="stylesheet" type="text/css" href="../style/globals.css" />
+     <link rel="stylesheet" type="text/css" href="../style/styles.css" />
 </head>
 <body>
      <header>
-          <div class="brand-name">
-               <a href="./index.html">Patrick <span>Alunya</span></a>
-          </div>
-          <div class="nav-links">
-               <a href="#home">Home</a>
-               <a href="#projects">Projects</a>
-               <a href="#about">About</a>
-               <a href="./contact_us.html">Contact Us</a>
+          <nav>
+               <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>
+          </nav>
+          <div class="hero" id="home">
+               <h1>Welcome to My Portfolio</h1>
+               <p>I'm a Web Developer.</p>
           </div>
      </header>
-     <hero class="contact-us-content">
+     <section class="contact-us-content">
                <div class="image-container">
-                    <img src="./contact-us-hero-banner_1.png" />
+                    <img src="../content/images/contact-us-hero-banner_1.png" />
                </div>
               <div class="contact-form">
                <form   id="contact-us" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
@@ -65,7 +70,7 @@
                     <input class="submit" type="submit" value="Send Message" />
                </form>
               </div>
-          </hero>
+          </section>
           <section class="contact-channel">
                <div class="contact-channel-title">
                     <h2>Official Contact Channels</h2>
@@ -76,15 +81,15 @@
                     </p>
                     <div class="contact-details">
                          <a href="tel: +254115348341">
-                              <img src="./contact-us-phone-icon.png" />
+                              <img src="../content/images/contact-us-phone-icon.png" />
                               <span>+254115348341</span>
                          </a>
                          <a href="https://web.whatsapp.com/send?text=your_message&phone=254115348341" class="whatsapp" target="_blank">
-                              <img src="./contact-channel-whatsapp-icon.png" />
+                              <img src="../content/images/contact-channel-whatsapp-icon.png" />
                               <span>+254115348341</span>
                          </a>
                          <a href="mailto: patrickalunya106@gmail.com">
-                              <img src="./gmail-icon_1.png" />
+                              <img src="../content/images/gmail-icon_1.png" />
                               <span>patrickalunya106@gmail.com</span>
                          </a>
                     </div>
@@ -94,11 +99,11 @@
                <div></div>
                <div class="contact-social-handles-content">
                     <div class="social-handle-links">
-                         <a href="#"><img src="./fb-icon_1.png" /></a>
-                         <a href="https://www.instagram.com/alunya.techiez/"><img src="./instagram-link.png" /></a>
-                         <a href="#"><img src="./youtube-link.png" /></a>
-                         <a href="#"><img src="./twitter-link.png" /></a>
-                         <a href="#"><img src="./linkedin-link.png" /></a>
+                         <a href="#"><img src="../content/images/fb-icon_1.png" /></a>
+                         <a href="https://www.instagram.com/alunya.techiez/"><img src="../content/images/instagram-link.png" /></a>
+                         <a href="#"><img src="../content/images/youtube-link.png" /></a>
+                         <a href="#"><img src="../content/images/twitter-link.png" /></a>
+                         <a href="#"><img src="../content/images/linkedin-link.png" /></a>
                     </div>
                </div>
                <div></div>
@@ -113,18 +118,17 @@
                     </p>
                </div>
                <div class="legals-terms-of-service">
-                    <a href="./content/pages/legal_stuff.html">Legal Stuff |</a>
-                    <a href="./content/pages/legal_stuff.html">Terms Of Service |</a>
-                    <a href="./content/pages/legal_stuff.html">Company Policy</a>
+                    <a href="../pages/legal_stuff.html">Legal Stuff |</a>
+                    <a href="../pages/terms.html">Terms Of Service |</a>
+                    <a href="../pages/policy.html">Company Policy</a>
                </div>
                <a class="whatsapp-button" id="whatsapp-button" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                </a>
                <!-- href="https://wa.me/send?phone=254115348341" -->
           </section>
-          <script language="JavaScript" type="text/javascript" src="./script/current-year.js"></script>
-          <script language="JavaScript" type="text/javascript" src="./script/whatsapp-button.js"></script>
+          <script language="JavaScript" type="text/javascript" src="../script/current-year.js"></script>
+          <script language="JavaScript" type="text/javascript" src="../script/whatsapp-button.js"></script>
           <script language="JavaScript" type="text/javascript" src="https://web3forms.com/client/script.js" async defer></script>
-          <script language="JavaScript" type="text/javascript" src="../../script/h-capture.js"></script>
 </body>
 </html>

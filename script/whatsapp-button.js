@@ -22,7 +22,7 @@ if (isMobile) {
 }
   
   // Smooth scroll to the top of the page
-  var currentPosition = window.pageYOffset;
+  var currentPosition = window.scrollY;
   var duration = 500; // Smooth scroll duration in milliseconds
   var startTime = null;
   
