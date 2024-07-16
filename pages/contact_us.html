@@ -32,6 +32,9 @@
      <link rel="stylesheet" type="text/css" href="../style/footer.css" />
      <link rel="stylesheet" type="text/css" href="../style/globals.css" />
      <link rel="stylesheet" type="text/css" href="../style/styles.css" />
+     <link rel="stylesheet" type="text/css" href="../style/whatsapp-button.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-form.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-us.css" />
 </head>
 <body>
      <header>
@@ -48,85 +51,47 @@
                <p>I'm a Web Developer.</p>
           </div>
      </header>
-     <section class="contact-us-content">
-               <div class="image-container">
-                    <img src="../content/images/contact-us-hero-banner_1.png" />
-               </div>
-              <div class="contact-form">
-               <form   id="contact-us" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
-                    <input type="hidden" name="access_key" value="e5ae7620-94ff-4c5e-8da9-8fac9b2f1e11">
-                    <input type="hidden" name="subject" value="New Customer Message">
-                    <legend>Contact Form</legend><br />
-                    <p>Required fields are marked by<span style="color:red"> *</p>
-                    <label for="fname">First name<span style="color:red"> *</span></label>
-                    <input type="text" name="fname" id="fname" size=18 maxlength=50 required value="" placeholder="John Doe" />
-                    <label for="email">Email address<span style="color:red"> *</span></label>
-                    <input type="email" name="email" id="email" size=18 maxlength=50 placeholder="johndoe@example.com" required value="" />
-                    <label for="phone">Phone<span style="color:red"> *</span></label>
-                    <input type="phone"  name="phone" id="phone" size=18 maxlength=50  placeholder="Enter phone number..." required value="" />
-                    <label for="message">Message<span style="color:red"> *</span></label>
-                    <textarea type="text" name="message" id="message" size=20 maxlength=200 placeholder="Enter your message here..." required value=""></textarea><br />
-                    <div class="h-captcha" id="hBtn" data-captcha="true"></div>
-                    <input class="submit" type="submit" value="Send Message" />
-               </form>
-              </div>
-          </section>
-          <section class="contact-channel">
-               <div class="contact-channel-title">
-                    <h2>Official Contact Channels</h2>
-               </div>
-               <div class="contact-channel-content">
-                    <p>Ready to transform your digital presence and drive business growth?<br />
-                       Contact Alunya Techiez today and let us start building something amazing together!
-                    </p>
-                    <div class="contact-details">
-                         <a href="tel: +254115348341">
-                              <img src="../content/images/contact-us-phone-icon.png" />
-                              <span>+254115348341</span>
-                         </a>
-                         <a href="https://web.whatsapp.com/send?text=your_message&phone=254115348341" class="whatsapp" target="_blank">
-                              <img src="../content/images/contact-channel-whatsapp-icon.png" />
-                              <span>+254115348341</span>
-                         </a>
-                         <a href="mailto: patrickalunya106@gmail.com">
-                              <img src="../content/images/gmail-icon_1.png" />
-                              <span>patrickalunya106@gmail.com</span>
-                         </a>
+     <section>
+               <div class="contact-form-area">
+                    <div class="image-container">
+                         <img src="../content/images/contact-us-hero-banner_1.png" />
+                    </div>
+                    <div class="contact-form">
+                         <form id="contact-us" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
+                              <input type="hidden" name="access_key" value="e5ae7620-94ff-4c5e-8da9-8fac9b2f1e11">
+                              <input type="hidden" name="subject" value="New Customer Message">
+                              <legend>Contact Form</legend><br />
+                              <p>Required fields are marked by<span style="color:red"> *</p>
+                              <label for="fname">First name:<span style="color:red"> *</span></label><br />
+                              <input type="text" name="fname" id="fname" size=18 maxlength=50 required value=""
+                                   placeholder="John Doe" /><br />
+                              <label for="email">Email address:<span style="color:red"> *</span></label><br />
+                              <input type="email" name="email" id="email" size=18 maxlength=50 placeholder="johndoe@example.com" required
+                                   value="" /><br />
+                              <label for="phone">Phone:<span style="color:red"> *</span></label><br />
+                              <input type="phone" name="phone" id="phone" size=18 maxlength=50 placeholder="Enter phone number..." required
+                                   value="" /><br />
+                              <label for="message">Message<span style="color:red"> *</span></label><br />
+                              <textarea type="text" name="message" id="message" size=20 maxlength=200
+                                   placeholder="Enter your message here..." required value=""></textarea><br />
+                              <button id="submit" onclick="handleonclick">Send Message</button>
+                         </form>
                     </div>
                </div>
-          </section><br /><br />
-          <section class="contact-social-handles">
-               <div></div>
-               <div class="contact-social-handles-content">
-                    <div class="social-handle-links">
-                         <a href="#"><img src="../content/images/fb-icon_1.png" /></a>
-                         <a href="https://www.instagram.com/alunya.techiez/"><img src="../content/images/instagram-link.png" /></a>
-                         <a href="#"><img src="../content/images/youtube-link.png" /></a>
-                         <a href="#"><img src="../content/images/twitter-link.png" /></a>
-                         <a href="#"><img src="../content/images/linkedin-link.png" /></a>
-                    </div>
-               </div>
-               <div></div>
           </section>
-          <section class="footer">
-               <div class="brand-name">
-                    <a href="#">Alunya-Techiez</a>
+          <footer id="contact">
+               <h2>Contact Me</h2>
+               <a href="mailto: patrickalunya106@gmail.com">Email: patrickalunya106@gmail.com</a><br /><br />
+               <a href="tel: +254115348341">Phone: (+254) 115348341</a>
+               <p>Copyright &copy; <span id="currentYear"></span> | All Rights Reserved</p>
+               <P>Developed and maintained by Patrick Alunya</P>
+          </footer>
+          <aside>
+               <div class="whatsapp-button" id="whatsapp-button">
+                    <img src="../content/images/contact-channel-whatsapp-icon.png" />
                </div>
-               <div class="copyright-info">
-                    <p>Copyright &copy; <span id="currentYear"></span>
-                         <span>Alunya-Techiez, Ltd.</span>
-                    </p>
-               </div>
-               <div class="legals-terms-of-service">
-                    <a href="../pages/legal_stuff.html">Legal Stuff |</a>
-                    <a href="../pages/terms.html">Terms Of Service |</a>
-                    <a href="../pages/policy.html">Company Policy</a>
-               </div>
-               <a class="whatsapp-button" id="whatsapp-button" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-               </a>
-               <!-- href="https://wa.me/send?phone=254115348341" -->
-          </section>
+          </aside>
+          <script language="JavaScript" type="text/javascript" src="../script/script.js"></script>
           <script language="JavaScript" type="text/javascript" src="../script/current-year.js"></script>
           <script language="JavaScript" type="text/javascript" src="../script/whatsapp-button.js"></script>
           <script language="JavaScript" type="text/javascript" src="https://web3forms.com/client/script.js" async defer></script>
