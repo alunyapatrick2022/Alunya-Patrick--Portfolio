@@ -92,7 +92,6 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-git push
 #about-me p {
     margin-bottom: 20px;
 }
@@ -260,6 +259,10 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
     color: #E8EDDF; /* Light color on hover */
+}
+#github-link a {
+    text-decoration: underline;
+    color: blue;
 }
 
 @media (max-width: 768px) {
