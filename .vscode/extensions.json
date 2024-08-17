@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "xdebug.php-pack",
+        "xdebug.php-debug",
+        "zobo.php-intellisense",
+        "github.copilot"
+    ]
+}

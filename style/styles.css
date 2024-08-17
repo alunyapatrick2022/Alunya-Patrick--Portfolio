@@ -182,7 +182,7 @@ body {
 }
 
 .social-icons img{
-    width: 2%;
+    width: 3%;
     text-align: center;
 }
 
@@ -273,4 +273,21 @@ footer .social-icons a:hover {
     footer .social-icons {
         margin-top: 20px;
     }
+}
+
+.subscribe-container {
+    text-align: center;
+}
+input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.message {
+    margin-top: 20px;
 }
