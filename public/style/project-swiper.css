@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #242423; /* Dark background */
+    padding: 0.5em 1em;
+    -webkit-text-fill-color: white;
+}
+
+.navbar-brand {
+    color: #CFDBD5; /* Light color for brand */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #F5CB5C; /* Accent color on hover */
+}
+
+.navbar-toggler {
+    border-color: #CFDBD5; /* Light color for toggle button */
+}
+
+/* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='none' viewBox='0 0 30 30'><path stroke='%23CFDBD5' stroke-width='2' d='M5 7h20M5 15h20M5 23h20'/></svg>");
+} */
+
+.offcanvas {
+    background-color: #333533; /* Darker background for offcanvas */
+    color: #E8EDDF; /* Light color for text */
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #CFDBD5; /* Light border for header */
+}
+
+.offcanvas-title {
+    color: #F5CB5C; /* Accent color for title */
+}
+
+.btn-close {
+    filter: invert(1); /* Make close button white */
+}
+
+.nav-link {
+    color: white; /* Light color for nav links */
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    color: #F5CB5C; /* Accent color on hover */
+}
+
+.nav-item {
+    margin-right: 1em;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 1em;
+    }
+}
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    /* max-width: 90%; */
+    margin: auto;
+    overflow: hidden;
+    margin-top: 57.5px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.swiper-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

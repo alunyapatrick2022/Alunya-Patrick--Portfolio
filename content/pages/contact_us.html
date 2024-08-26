@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Patrick-Alunya One Pager Portfolio Website UI/UX Design</title>
+     <meta name="description" content="A brief description of your page content.">
+     <meta name="keywords" content="keyword1, keyword2, keyword3">
+     <meta name="author" content="Your Name">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Tags -->
+     <meta property="og:title" content="Your Page Title">
+     <meta property="og:description" content="A brief description of your page content.">
+     <meta property="og:image" content="URL_to_image">
+     <meta property="og:url" content="URL_of_your_page">
+     <meta property="og:type" content="website">
+     
+     <!-- Twitter Card Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Your Page Title">
+     <meta name="twitter:description" content="A brief description of your page content.">
+     <meta name="twitter:image" content="URL_to_image">
+     <script src="https://kit.fontawesome.com/4d1e4c5b32.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="../style/header.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-social-handles.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-form.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-us.css" />
+     <link rel="stylesheet" type="text/css" href="../style/footer.css" />
+     <link rel="stylesheet" type="text/css" href="../style/globals.css" />
+     <link rel="stylesheet" type="text/css" href="../style/styles.css" />
+     <link rel="stylesheet" type="text/css" href="../style/whatsapp-button.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-form.css" />
+     <link rel="stylesheet" type="text/css" href="../style/contact-us.css" />
+</head>
+<body>
+     <header>
+          <nav>
+               <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>
+          </nav>
+          <div class="hero" id="home">
+               <h1>Welcome to My Portfolio</h1>
+               <p>I'm a Web Developer.</p>
+          </div>
+     </header>
+     <section>
+               <div class="contact-form-area">
+                    <div class="image-container">
+                         <img src="../content/images/contact-us-hero-banner_1.png" />
+                    </div>
+                    <div class="contact-form">
+                         <form id="contact-us" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
+                              <input type="hidden" name="access_key" value="e5ae7620-94ff-4c5e-8da9-8fac9b2f1e11">
+                              <input type="hidden" name="subject" value="New Customer Message">
+                              <legend>Contact Form</legend><br />
+                              <p>Required fields are marked by<span style="color:red"> *</p>
+                              <label for="fname">First name:<span style="color:red"> *</span></label><br />
+                              <input type="text" name="fname" id="fname" size=18 maxlength=50 required value=""
+                                   placeholder="John Doe" /><br />
+                              <label for="email">Email address:<span style="color:red"> *</span></label><br />
+                              <input type="email" name="email" id="email" size=18 maxlength=50 placeholder="johndoe@example.com" required
+                                   value="" /><br />
+                              <label for="phone">Phone:<span style="color:red"> *</span></label><br />
+                              <input type="phone" name="phone" id="phone" size=18 maxlength=50 placeholder="Enter phone number..." required
+                                   value="" /><br />
+                              <label for="message">Message<span style="color:red"> *</span></label><br />
+                              <textarea type="text" name="message" id="message" size=20 maxlength=200
+                                   placeholder="Enter your message here..." required value=""></textarea><br />
+                              <button id="submit" onclick="handleonclick">Send Message</button>
+                         </form>
+                    </div>
+               </div>
+          </section>
+          <footer id="contact">
+               <h2>Contact Me</h2>
+               <a href="mailto: patrickalunya106@gmail.com">Email: patrickalunya106@gmail.com</a><br /><br />
+               <a href="tel: +254115348341">Phone: (+254) 115348341</a>
+               <p>Copyright &copy; <span id="currentYear"></span> | All Rights Reserved</p>
+               <P>Developed and maintained by Patrick Alunya</P>
+          </footer>
+          <aside>
+               <div class="whatsapp-button" id="whatsapp-button">
+                    <img src="../content/images/contact-channel-whatsapp-icon.png" />
+               </div>
+          </aside>
+          <script language="JavaScript" type="text/javascript" src="../script/script.js"></script>
+          <script language="JavaScript" type="text/javascript" src="../script/current-year.js"></script>
+          <script language="JavaScript" type="text/javascript" src="../script/whatsapp-button.js"></script>
+          <script language="JavaScript" type="text/javascript" src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>
