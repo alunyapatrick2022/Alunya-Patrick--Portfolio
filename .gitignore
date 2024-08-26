@@ -1,6 +1,6 @@
 .vscode
 # Local Netlify folder
 .netlify
-
+.github
 .git
 README.md
