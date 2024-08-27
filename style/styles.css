@@ -78,17 +78,21 @@ body {
     padding: 0 15px;
 }
 
+.about-content {
+    text-align: left;
+}
+
 #about-me h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
+    /* text-align: left; */
     margin-bottom: 20px;
     color: #242423; /* Dark color for the heading */
 }
 
 #about-me .about-content {
     font-size: 1.1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -190,8 +194,15 @@ body {
 }
 
 .social-icons img{
-    width: 2%;
-    text-align: center;
+    height: 35px; 
+    width: auto;  
+    margin: 0 10px; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
 }
 
 footer {
@@ -209,6 +220,10 @@ footer .container {
     padding: 0 1em;
 }
 
+.contact-details h5, p {
+    text-align: center;
+}
+
 footer div {
     flex: 1;
     margin: 1em;
@@ -217,14 +232,13 @@ footer div {
 footer h5 {
     color: #F5CB5C; /* Accent color for headings */
     margin-bottom: 0.5em;
-    text-align: center;
+    text-align: left;
 }
 
 footer p,
 footer a {
     color: #E8EDDF; /* Lighter text color */
     text-decoration: none;
-    text-align: center;
 }
 
 footer a:hover {
@@ -270,7 +284,7 @@ footer .social-icons a:hover {
 }
 #github-link a {
     text-decoration: underline;
-    color: blue;
+    color: goldenrod;
 }
 
 @media (max-width: 768px) {
@@ -283,24 +297,15 @@ footer .social-icons a:hover {
     }
 }
 
-.frontend-skills>div {
-    width: 220px;
-    height: 222px;
-    background: rgb(109, 9, 9);
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
 .frontend-skills {
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 0.5rem;
+    justify-content: center;
 }
 
-.backend-skills>div {
-    width: 220px;
+.frontend-skills>div {
+    width: 320px;
     height: 222px;
     background: rgb(109, 9, 9);
     display: grid;
@@ -313,4 +318,32 @@ footer .social-icons a:hover {
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 0.5rem;
+    justify-content: center;
+}
+
+.backend-skills>div {
+    width: 320px;
+    height: 222px;
+    background: rgb(109, 9, 9);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.non-tech-skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+
+.non-tech-skills>div {
+    width: 320px;
+    height: 222px;
+    background: rgb(109, 9, 9);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

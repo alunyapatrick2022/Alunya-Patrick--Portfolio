@@ -1,0 +1,35 @@
+.swiper-content-wrapper {
+   display: grid;
+   justify-content: center;
+   width: 100%;
+}
+
+.swiper-container {
+   position: relative;
+   top: 0;
+   width: 100%;              /* Adjust the width as needed */
+   max-width: 600px;         /* Set a max-width */
+   height: 400px;            /* Adjust the height as needed */
+   background-color: #fff;   /* Optional: add a background color to the swiper */
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+   border-radius: 10px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background: rgb(109, 9, 9);
+   margin: 1rem;
+}
+
+.swiper-slide p {
+   position: relative;
+   top: 30%;
+   text-align: center;
+   color: white;
+   overflow: hidden;
+}
+
+.swiper-content-wrapper h2 {
+   text-align: center;
+   text-decoration: underline;
+}
