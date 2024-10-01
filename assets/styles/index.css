@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* section {
+    padding: 40px 20px;
+    text-align: center;
+} */
+
+/* h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+} */
+
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ff9900;
+}
+

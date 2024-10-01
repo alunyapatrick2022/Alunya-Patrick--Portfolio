@@ -1,2 +1,3 @@
-# alunyapatrick-1-page-portfolio-website
-This is my one pager portfolio. It highlights all the skills, experiences, projects that I posses.
+# Charles Ochieng Portfolio Website
+
+# Demo Website hosted here  [https://chuckycharles.github.io/Portfolio/](https://chuckycharles.github.io/Portfolio/)

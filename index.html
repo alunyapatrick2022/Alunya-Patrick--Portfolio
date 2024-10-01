@@ -1,386 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Alunya Patrick One Page Portfolio Website</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-lZB5zD62udYosU7cQpS2K5W08/8veD3AxDfX8bOuJ7Iw10p7T9eb2Yx7a2xXYx8E6U+KJK4h4+CHxMGwtyclBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-     <link rel="stylesheet" type="text/css" href="./style/landing-swiper.css" />
-     <link rel="stylesheet" href="./style/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Ochieng | Cloud Solutions Architect & DevOps Engineer</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/pre-header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/homepage-hero.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/homepage-main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/footer.css">
+
+
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-     <section id="home">
-     <nav class="navbar navbar-expand-lg fixed-top">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Patrick Alunya</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Patrick Alunya</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link mx-lg-2" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mx-lg-2" href="#about-us">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mx-lg-2" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mx-lg-2" href="./content/pages/projects.html">Projects </a> 
-                  </li>
-                    <li class="nav-item">
-                         <a class="nav-link mx-lg-2 " href="./content/pages/contact_us.html">Contact Me</a> 
+    <section class="top-bar">
+        <div class="pre-header">
+            <div class="contact-info">
+                Contact us: <a href="mailto: ochiengc753@gmail.com">ochiengcharles531@gmail.com</a> | <a href="tel: +254718166201">+254718166201</a>
+            </div>
+            <div class="social-links">
+                <a href="https://x.com/CharlesO21441" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                <a href="https://www.linkedin.com/in/charles-ochieng-177ba3253" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/charlesochieng878/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/ChuckyCharles" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://https://web.facebook.com/profile.php?id=61563616826503" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://https://web.facebook.com/profile.php?id=61563616826503" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </section>
+    <header>
+        <nav>
+            <div class="nav-items">
+                <h1 id="brand-name"></h1>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-links" class="nav-links">
+                    <li>
+                        <a href="./index.html#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#portfolio" target="_blank">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="./public/about.html" target="_blank">About</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#testimonials" target="_blank">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="https://charlesochieng.hashnode.dev/" target="_blank">Blogs</a>
+                    </li>
+                    <li id="get-in-touch">
+                        <a href="https://wa.me/254746315094?text=Hello, I'm%20interested%20in%20your%20automations%20services%20I%20would%20love%20know%20more%20about%20them" target="_blank">Get In Touch</a>
                     </li>
                 </ul>
-               </div>
-          </div>
-          </div>
-     </nav>
-</section>
-     <br> <br> <br>
-     <section id="about-us">
-          <div class="container">
-              <h2>About Me</h2>
-              <div class="about-content">
-                  <p>Hi, I'm Patrick Alunya, a passionate Full Stack Developer with a keen eye for detail and a drive for continuous
-                    learning. I specialize in front-end and back-end development, focusing on creating intuitive and visually appealing
-                    websites and applications.
-                    With a background skills and experience in Frontend Designs and Backend development, I have delved much into API
-                    endpoints developments and integrating frontend
-                    and backend using API endpoints. My expertise includes HTML, CSS, JavaScript,PHP, MySQL and frameworks express.js and Node.js. I'm
-                    enthusiastic about UI/UX design and strive to create user experiences that are both functional and delightful.
-                    Outside of coding, I participate in hackathons, continuously pushing my skills and collaborating with other tech
-                    enthusiasts. I believe in the power of technology to make a positive impact and am committed to contributing to
-                    meaningful projects and communities.If you're looking for a developer to bring your ideas to life or want to chat about technology and design, feel free to
-                    reach out. Let's build something amazing together!
-                  </p>
-              </div>
-          </div>
-      </section>
-      <br> <br>
-     
-     <section id="skills">
-          <h1 style="text-decoration: underline;">Skills</h1>
-          <h2 style="text-decoration: dotted;">Programming And Tech Skills</h2>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" id="background">
+        <div class="hero-content">
+            <div class="hero-content-wrapper">
+                <h2>Cloud Solutions Architect & DevOps Engineer</h2>
+                <h4>
+                    Hi. I’m Charles, and I do Designing and implementation of cloud infrastructure solutions with a passion for  automations and creation of automation tools.
+                </h4>
+                <a href="tel: +254718166201" class="cta">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="profile-container">
+                <img src="./assets/images/charles_ochieng_profile.png" alt="Charles Odhiambo" class="profile-image">
+            </div>
+            <div class="about-text">
+                <p>I am a Cloud Solutions Architect and part-time DevOps engineer with extensive experience in AWS, Azure, and Google Cloud. I specialize in containerization, orchestration, and creating efficient, scalable cloud infrastructures.</p>
+                <p>With a strong focus on automation and best practices, I help organizations streamline their cloud operations, optimize costs, and ensure high availability. .</p>
+            </div>
+        </div>
+    </section>
 
-          <!-- Frontend Web|Software Dev -->
-          <div class="skills-container-wrap">
-               <h3>1.Frontend Development</h3>
-               <div class="frontend-skills">
-                    <div class="skill">
-                         <div class="skill-name">Web Graphic Design</div>
-                                   <div class="skill-bar">
-                                        <div class="skill-bar-fill" style="width: 100%;" >100%</div>
-                                   </div>
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-section-header">
+            <h2>Portfolio</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="portfolio-item-content">
+            <div class="portfolio-item">
+                <h3>Project 1: Serverless Image Processing</h3>
+                    <div class="underline"></div>
+                <div class="portfolio-item-image">
+                    <img src="./assets/images/serverless-image-processing.jpeg"/>
+                </div>
+                <div class="portfolio-item-text">
+                    <div class="tick-icon">
+                        <img src="./assets/icons/tick icon.png" alt="tick Icon"/>
+                        <p>Implemented a serverless image processing solution using AWS Lambda, S3, and Docker.</p>
                     </div>
-          
-                    <div class="skill">
-                         <div class="skill-name">UI / UX design</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 80%;">90%</div>
-                              </div>
+                    <div>
+                        <a href="https://github.com/ChuckyCharles/Serveless_Image-processor_AWS-Docker" class="cta">Project Link</a>
+                        <a href="./public/learn-more.html#serverless-image-processing" class="cta">Learn More</a>
                     </div>
-          
-                    <div class="skill">
-                         <div class="skill-name">UI / UX research</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 75%;">75%</div>
-                              </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2: Multi-Cloud Monitoring App</h3>
+                    <div class="underline"></div>
+                <div class="portfolio-item-image">
+                    <img src="./assets/images/multicloud-monitoring-app.jpeg"/>
+                </div>
+                <div class="portfolio-item-text">
+                    <div class="tick-icon">
+                        <img src="./assets/icons/tick icon.png" alt="tick Icon"/>
+                        <p>Developed a multi-cloud monitoring application for real-time infrastructure tracking and management.</p>
                     </div>
-                    <div class="skill">
-                         <div class="skill-name">Web research</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 75%;">75%</div>
-                              </div>
+                    <div>
+                        <a href="https://github.com/ChuckyCharles/Post-Automation-in-AWS" class="cta">Project Link</a>
+                        <a href="./public/learn-more.html#multicloud-monitoring-app" class="cta">Learn More</a>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/html5.svg" />
-                         </div>
-                         <div class="skill-name">HTML</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 99%;">99%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/javascript.svg" />
-                         </div>
-                         <div class="skill-name">JavaScript</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 55%;">50%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/css3.svg" />
-                         </div>
-                         <div class="skill-name">CSS</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 85%;">85%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/css3.svg" />
-                         </div>
-                         <div class="skill-name">CSS</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 85%;">85%</div>
-                              </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="services-section-content">
+            <h2>Services</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="services-content">
+            <div class="services-content-text">
+                <h3>1. Cloud Solutions Architecture</h3>
+                <div class="underline"></div>
+                <p>As a Cloud Solutions Architect with expertise in AWS, Azure, and Google Cloud, I design scalable, secure, and cost-efficient cloud environments that align with business objectives. My focus areas include:</p>
+                <ol>
+                    <li>Cloud Infrastructure Design</li>
+                    <p>I build high-performance architectures using compute, storage, and networking services like EC2, Azure VMs, and Google Cloud Storage to ensure reliability and scalability.</p>
+                    
+                    <li>Automation & Orchestration</li>
+                    <p>Leveraging Infrastructure as Code (Terraform, CloudFormation) and container orchestration (Kubernetes), I automate and streamline cloud operations for efficiency and agility.</p>
+                    
+                    <li>Scalability & Availability</li>
+                    <p>I implement dynamic scaling and high availability strategies with multi-region deployments and load balancing, ensuring uptime and resilience.</p>
+                    
+                    <li>Cost Optimization</li>
+                    <p>By monitoring resource usage and leveraging tools like AWS Cost Explorer, I ensure optimized spending while maintaining performance.</p>
+                    
+                    <li>Security & Compliance</li>
+                    <p>I integrate security best practices, including IAM, encryption, and compliance with industry regulations, using services like AWS Shield and Azure Security Center.</p>
+                    
+                    <li>Cloud Migration</li>
+                    <p>I lead seamless cloud migrations, rearchitecting systems or using lift-and-shift approaches to minimize disruptions and enhance scalability.</p>
+                </ol>
+                <li id="whatsapp">
+                    <a href="https://wa.me/254746315094?text=Hello, I'm%20interested%20in%20your%20cloud%20solutions%20architecture%20services%20I%20would%20love%20know%20more%20about%20them" target="_blank">Contact</a>
+                </li>
+            </div>
+            <div class="services-content-text">
+                <h3>2. DevOps Consulting</h3>
+                <div class="underline"></div>
+                <p>As a DevOps Consultant, I specialize in optimizing and automating software development lifecycles, enabling organizations to achieve faster, more reliable deployments. My expertise covers:</p>
+
+                    <ol>
+                    <li>CI/CD Pipeline Automation</li>
+                    <p>I design and implement Continuous Integration and Continuous Deployment (CI/CD) pipelines using tools like Jenkins, GitLab CI, and Azure DevOps to automate code testing, building, and deployment for seamless software delivery.</p>
+                    
+                    <li>Infrastructure as Code (IaC)</li>
+                    <p>Leveraging tools like Terraform, Ansible, and CloudFormation, I automate infrastructure provisioning and management, ensuring consistency and reducing manual overhead.</p>
+                    
+                    <li>Containerization & Orchestration</li>
+                    <p>I streamline application deployment with containerization technologies like Docker and Kubernetes, enabling efficient scaling and improved resource utilization.</p>
+                    
+                    <li>Monitoring & Incident Management</li>
+                    <p>I implement real-time monitoring and alerting systems using Prometheus, Grafana, and ELK Stack, ensuring quick issue detection and resolution for minimal downtime.</p>
+                    
+                    <li>Cloud Optimization</li>
+                    <p>By integrating DevOps practices with AWS, Azure, and Google Cloud, I enhance cloud performance, security, and cost-efficiency, supporting scalable and flexible infrastructures.</p>
+                    
+                    <li>Collaboration & Process Automation</li>
+                    <p>I foster collaboration between development and operations teams, automating workflows and improving processes to reduce time-to-market and increase reliability.</p>
+                    </ol> 
+                <li id="whatsapp">
+                    <a href="https://wa.me/254746315094?text=Hello, I'm%20interested%20in%20your%20DevOps%20Consulting%20services%20I%20would%20love%20know%20more%20about%20them" target="_blank">Contact</a>
+                </li>
+            </div>
+            <div class="services-content-text">
+                <h3>3. Infrastructure Automation</h3>
+                <div class="underline"></div>
+                <p>As an expert in Infrastructure Automation, I help organizations streamline their cloud operations and increase efficiency by automating infrastructure provisioning and management. Key areas of focus include:</p>
+                <ol>
+                    <li>Infrastructure as Code (IaC)</li>
+                    <p>I automate cloud infrastructure using tools like Terraform, CloudFormation, and Ansible, ensuring consistency and reducing manual intervention.</p>
+                    
+                    <li>CI/CD Pipeline Integration</li>
+                    <p>I integrate IaC into CI/CD pipelines, enabling automated deployment and infrastructure updates in sync with application releases.</p>
+                    
+                    <li>Containerization & Orchestration</li>
+                    <p>Leveraging Docker and Kubernetes, I automate application deployment and scaling, enhancing operational efficiency and resource utilization.</p>
+                    
+                    <li>Cloud Optimization</li>
+                    <p>I implement automated resource scaling and cost optimization strategies across AWS, Azure, and Google Cloud, improving performance and reducing costs.</p>
+                </ol>
+                <li id="whatsapp">
+                    <a href="https://wa.me/254746315094?text=Hello, I'm%20interested%20in%20your%20Infrastructure%20Automation%20services%20I%20would%20love%20know%20more%20about%20them" target="_blank">Contact</a>
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="testimonials-section-header">
+            <h2>Testimonials</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="testimonials-content">
+            <div class="testimonials-profile">
+                <div class="testimonials-profile-image">
+                    <img src="./assets/images/richard odhiambo profile.jpg" alt="Richard Odhiambo">
+                </div>
+                <div class="testimonials-text-content">
+                    <p>Richard Odhiambo</p>
+                    <p>"Charles is a cloud wizard! His solutions are always efficient and scalable."</p>
+                    <a href="mailto: odhiambo4r@gmail.com">Email: odhiambo4r@gmail.com</a>
+                    <a href="tel: 0710378992"><span>Phone: 0710378992</span></a>
+                </div>
+            </div>
+            <div class="testimonials-profile">
+                <div class="testimonials-profile-image">
+                    <img src="./assets/images/Rosebella Wairiara.jpeg" alt="Rosebella Wariara">
+                </div>
+                <div class="testimonials-text-content">
+                    <p>Rosebella Wariara</p>
+                    <p>
+                       "Working with Charles on our DevOps pipeline was a game-changer." 
+                    </p>
+                    <a href="mailto: odhiambo4r@gmail.com">Email: Wariararosebell04@gmail.com</a>
+                    <a href="tel: 0710378992"><span>Phone:0718831656</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content-wrap">
+            <div class="brands">
+                <div class="brand-logo-name">
+                    <div class="brand-logo">
+                        <h3>Charles Ochieng</h3>
                     </div> 
-               </div>
-          </div>
-
-          <!-- Backends Web| software dev -->
-          <div class="skills-container-wrap">
-               <h3 style="text-decoration: underline;">2. Backend Development</h3>
-               <div class="backend-skills">
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/php.svg" />
-                         </div>
-                         <div class="skill-name">PHP</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 65%;">65%</div>
-                              </div>
+                </div>
+                <div class="brands-paragraph-content">
+                    <p>Hi. I’m Charles, and I do Designing and implementation of cloud infrastructure solutions with a passion for automations and creation of automation tools.</p>
+                </div> 
+                <div class="social-media-brand-logos">
+                    <div>
+                        <a href="https://x.com/CharlesO21441" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
                     </div>
-                    <div class="skill">
-                         <div class="skill-name">Express.js</div>
-                         <div class="skill-bar">
-                              <div class="skill-bar-fill" style="width: 70%;">70%</div>
-                         </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/charles-ochieng-177ba3253" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/djangoproject.svg" />
-                         </div>
-                         <div class="skill-name">Django-Python</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 40%;">40%</div>
-                              </div>
-               </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/nodejs.svg" />
-                         </div>
-                         <div class="skill-name">Nodejs</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 70%;">70%</div>
-                              </div>
+                    <div>
+                        <a href="https://www.instagram.com/charlesochieng878/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/java.svg" />
-                         </div>
-                         <div class="skill-name">Java</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 50%;">50%</div>
-                              </div>
+                    <div>
+                        <a href="https://github.com/ChuckyCharles" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/mysql.svg" />
-                         </div>
-                         <div class="skill-name">MySQL</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 90%;">90%</div>
-                              </div>
+                    <div>
+                        <a href="https://web.facebook.com/profile.php?id=61563616826503" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/git.svg" />
-                         </div>
-                         <div class="skill-name">Git</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 100%;">100%</div>
-                              </div>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <div class="underline"></div>
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="./public/about.html">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div id="contact" class="contact">
+                <h3>Contact</h3>
+                <div class="underline"></div>
+                <p>Feel free to reach out to me through the following platforms:</p>
+                <div class="contact-information-icons-details">
+                    <div class="phone-details">
+                        <div class="icon-container">
+                            <img src="./assets/icons/phone-white-icon.png" />
+                        </div>
+                        <div class="phone-link">
+                            <a href="tel: +254718166201">+254718166201</a>
+                        </div>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/github.svg" />
-                         </div>
-                         <div class="skill-name">Github</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 100%;">100%</div>
-                              </div>
+                    <div class="email-details">
+                        <div class="icon-container">
+                            <img src="./assets/icons/email-white-icon.png" />
+                        </div>
+                        <div class="email-link">
+                            <a href="mailto: ochiengc753@gmail.com">ochiengc753@gmail.com</a>
+                        </div>
                     </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/react.svg" />
-                         </div>
-                         <div class="skill-name">React Native</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 40%;">40%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/python.svg" />
-                         </div>
-                         <div class="skill-name">Python</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 50%;">50%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img src="./content/icons/programming-lang-icons/flutter.svg" />
-                         </div>
-                         <div class="skill-name">Flutter</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 40%;">40%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div>
-                              <img style="width: 50px" src="./content/icons/programming-lang-icons/dart.svg" />
-                         </div>
-                         <div class="skill-name">Dart</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 40%;">40%</div>
-                              </div>
-                    </div>
-               </div>
-          </div>
-          <div class="skills-container-wrap">
-               <h2 style="text-decoration: underline;">Non-Technical Skills</h2>
-               <div class="non-tech-skills">
-                    <div class="skill">
-                         <div class="skill-name">Communication</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 85%;">85%</div>
-                              </div>
-                    </div>
-                    <div class="skill">
-                         <div class="skill-name">Teamwork</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 90%;">90%</div>
-                         </div>
-                    </div>
-                    <div class="skill">
-                         <div class="skill-name">Problem Solving</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 90%;">90%</div>
-                         </div>
-                    </div>
-                    <div class="skill">
-                         <div class="skill-name">Time Management</div>
-                              <div class="skill-bar">
-                                   <div class="skill-bar-fill" style="width: 80%;">80%</div>
-                              </div>
-                    </div>
-               </div>
-          </div>
-          </section>
-
-          <!-- Work Epxerience to be replaced with swipers -->
-          <!-- <section>
-               <h2>Work Experiences</h2>
-               <ul>
-                    <li>4 months Student Industrial Work Experience Scheme (SIWES) at Ibadan Electricity Distribution Company (IBEDC), Osogbo, Osun State. 2014</li>
-                    <li>6 months Industrial Training (I.T) at Stancom Computer Institute, Emene - Enugu, Enugu State. 2016</li>
-                    <li>6 months Student Industrial Work Experience Scheme (SIWES) at Crown Wales Electrical & Computers Services, Emene - Enugu, Enugu State. 2023</li>
-               </ul>
-              </section>  -->
-          <!-- Swiper -->
-           <div class="swiper-content-wrapper">
-               <h2>Work Experiences</h2>
-               <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                         <div class="swiper-slide">
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>Eos illum natus officia voluptate beatae in vel! At, nemo, <br/>doloribus quos eum cum mollitia dolorem in soluta dicta quis, <br/>reprehenderit esse?</p>
-                         </div>
-                         <div class="swiper-slide">
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>Eos illum natus officia voluptate beatae in vel! At, nemo, <br/>doloribus quos eum cum mollitia dolorem in soluta dicta quis, <br/>reprehenderit esse?</p>                         </div>
-                         <div class="swiper-slide">
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>Eos illum natus officia voluptate beatae in vel! At, nemo, <br/>doloribus quos eum cum mollitia dolorem in soluta dicta quis, <br/>reprehenderit esse?</p>                         </div>
-                         <div class="swiper-slide">
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>Eos illum natus officia voluptate beatae in vel! At, nemo, <br/>doloribus quos eum cum mollitia dolorem in soluta dicta quis, <br/>reprehenderit esse?</p>                         </div>
-                         <div class="swiper-slide">
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>Eos illum natus officia voluptate beatae in vel! At, nemo, <br/>doloribus quos eum cum mollitia dolorem in soluta dicta quis, <br/>reprehenderit esse?</p>                         </div>
-                    </div>
-     
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-          
-                    <!-- Add Navigation -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-               </div>
-           </div>
-     <footer id="footer">
-          <div class="container">
-              <div>
-                  <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                         <li>
-                         <a href="#home" class="text-white">Home</a>
-                         </li>
-                         <li>
-                         <a href="#about-me" class="text-white">About Us</a>
-                         </li>
-                         <li>
-                         <a href="./content/pages/projects.html" class="text-white">Projects</a>
-                         </li>
-                         <li>
-                         <a href="./content/pages/contact_us.html" class="text-white">Contact Me</a>
-                         </li>
-                    </ul>
-              </div>
-              <div class="contact-details">
-                  <h5>Contact Us</h5>
-                    <p>Email: 
-                         <a href="mailto:patrickalunya106@gmail.com" class="text-white">patrickalunya106@gmail.com</a>
-                    </p>
-                    <p>Phone: 
-                         <a href="tel:+254115348341" class="text-white">+254115348341</a>
-                    </p>
-              </div>
-              <div class="newsletter">
-                    <h5>Newsletter</h5>
-                    <p>Subscribe to our newsletter to stay updated on our latest news and offers.</p>
-                         <form id="form" action="">
-                              <input type="email" placeholder="Your email">
-                              <input type="submit" value="Subscribe">
-                         </form>
-              </div>
-             
-          </div>
-          <div class="social-icons">
-               <a href="http://www.linkedin.com/in/patrick-alunya2024" target="_blank" rel="noopener noreferrer">
-                    <img src="./content/icons/social-contact-icons/linkedin.svg" alt="Linkedin">
-               </a>
-               <a href="https://github.com/alunyapatrick2022" target="_blank" rel="noopener noreferrer">
-                    <img src="./content/icons/social-contact-icons/github.svg" alt="GIthub">
-               </a>
-               <a href="https://www.facebook.com/100082867241645" target="_blank" rel="noopener noreferrer">
-                    <img src="./content/icons/social-contact-icons/facebook.svg" alt="Facebook">
-               </a>
-               <a href="https://x.com/Patrick_Alunya" target="_blank" rel="noopener noreferrer">
-                    <img src="./content/icons/social-contact-icons/x.jpeg" alt="Twitter">
-               </a>
-               <a href="https://www.instagram.com/alunya.patrick" target="_blank" rel="noopener noreferrer">
-                    <img src="./content/icons/social-contact-icons/instagram.svg" alt="Instagram">
-               </a>
-               <!-- Add more social media icons as needed -->
-          </div>
-          <p id="github-link">Copyright &copy;-2024 Maintained by
-               <a href="https://github.com/alunyapatrick2022">Patrick Alunya</a>
-          </p>
-      </footer>
-
-      <script src="./script/landing-swiper.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-tag">
+            <p>Copyright &copy; <span id="year">
+            </span> | Charles Ochieng | Maintained by <span>
+                <a href="https://github.com/ChuckyCharles" target="_blank">Charles Ochieng</a>
+            </span>
+            </p>
+        </div>
+        <div class="floating-wa-icon">
+            <div class="wa-icon">
+                <a href="https://wa.me/254746315094?text=Hello, I'm%20interested%20in%20your%20automations%20services%20I%20would%20love%20know%20more%20about%20them" target="_blank">
+                    <img id="wa-icon" src="./assets/icons/Whatsapp icon.png" alt="whatsapp"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/scripts/index.js"></script>
+    <script type="text/javascript" src="./assets/scripts/current-year.js"></script>
 </body>
 </html>

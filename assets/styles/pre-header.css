@@ -1,0 +1,37 @@
+.top-bar {
+    background: #555;
+    overflow-x: hidden;
+}
+
+.pre-header {
+    position: fixed;
+    color: white;
+    top: 0;
+    width: 100vw;
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: green;
+}
+
+.contact-info a:hover {
+    color: blue;
+}
+
+.social-links {
+    position: relative;
+    right: 100px;
+}
+
+
+@media(max-width: 768px) {
+    .top-bar {
+        display: none;
+    }
+}
