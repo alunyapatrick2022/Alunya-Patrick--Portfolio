@@ -1,3 +1,3 @@
-# Charles Ochieng Portfolio Website
+# Patrick Alunya Online Portfolio Website
 
-# Demo Website hosted here  [https://chuckycharles.github.io/Portfolio/](https://chuckycharles.github.io/Portfolio/)
+# Demo Website hosted here  [https://alunyapatrickportfolio-jcgkpr17.b4a.run/](https://alunyapatrickportfolio-jcgkpr17.b4a.run/)
